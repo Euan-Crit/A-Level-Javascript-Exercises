@@ -10,7 +10,7 @@ for (i = 0; i <= 10; i++) {
     numbers(i) = getrandomnum(50)
 }
 
-
+// hello
 
 function findmax(numbers) {
     let max = 0;
