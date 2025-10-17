@@ -1,0 +1,5 @@
+body { font-family: Arial, Helvetica, sans-serif; margin: 1rem; color: #222; }
+header h1 { margin-bottom: 0.5rem; }
+main { background: #fffef6; padding: 1rem; border-radius: 6px; border: 1px solid #f0e6c8 }
+#app { margin-top: 1rem; }
+code { background: #eee; padding: 2px 4px; border-radius: 4px; }
