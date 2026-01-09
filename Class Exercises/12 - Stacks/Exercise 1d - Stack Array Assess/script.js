@@ -1,6 +1,7 @@
 // =============================
 // Stack implemented with an array (manual push/pop)
 // =============================
+document.addEventListener("DOMContentLoaded", function() {
 
 // --- Stack setup ---
 const STACK_LIMIT = 10; // Maximum stack size
@@ -90,3 +91,4 @@ document.getElementById("btnClear").onclick = function() {
 };
 
 updateOutput();
+});

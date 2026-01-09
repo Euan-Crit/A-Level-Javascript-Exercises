@@ -10,12 +10,12 @@ let top = -1; // Index of the top element
 // --- Push operation ---
 function push(value) {
   // TODO: Fill in the blanks to complete the push logic
-  if (___________) {
+  if (top === -1) {
     // Stack is full
     return -1;
   } else {
-    top = ___________;
-    stack[top] = ___________;
+    top = top - 1;
+    stack[top] = value;
     return top;
   }
 }
@@ -23,13 +23,13 @@ function push(value) {
 // --- Pop operation ---
 function pop() {
   // TODO: Fill in the blanks to complete the pop logic
-  if (___________) {
+  if (top === -1) {
     // Stack is empty
     return -1;
   } else {
-    var popped = ___________;
-    stack[top] = ___________;
-    top = ___________;
+    var popped = stack[top];
+    stack[top] = undefined;
+    top = top - 1;
     return popped;
   }
 }
