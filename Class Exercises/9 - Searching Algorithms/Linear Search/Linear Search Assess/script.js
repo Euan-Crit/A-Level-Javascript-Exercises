@@ -20,9 +20,15 @@ document.addEventListener("DOMContentLoaded", function () {
         arrayDisplay.textContent = JSON.stringify(array);
     }
 
-    //Write a linear search with the identifier studentSearch which takes two parameters
-    //The array to be searched and the item searched for
-    //return the index position of the item if found or -1 if not
+  function studentSearch(Array, Valtofind)
+  let pos = -1;
+  let currentpos = 0
+   while (currentpos < Array.length && pos ==-1) {
+    if (Array[currentpos] === Valtofind) { 
+        pos = currentpos 
+    }
+    currentpos++;
+}
     
 
     generateButton.addEventListener("click", function () {

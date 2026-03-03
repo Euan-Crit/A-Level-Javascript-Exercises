@@ -21,16 +21,17 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function studentSearch(array, target) {
-        let __________________ = -1;
-        let __________________;
-        while (____________________) {
-            if (__________________) {
-                _______________;
+        let foundpos = -1;
+        let valuetofind = target;
+        let i = 0
+        while ( i !== array.length && foundpos == -1) {
+            if (array[i] === valuetofind) {
+                foundpos = i;
             } else {
-            ______________;
+            i++;
             }
         }
-        return _____;
+        return foundpos;
     }
     
     
